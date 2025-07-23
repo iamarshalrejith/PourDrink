@@ -151,11 +151,11 @@ body {
       @apply container mx-auto relative z-10 flex md:flex-row flex-col justify-between items-start gap-20 pt-40 2xl:px-0 px-5;
 
       .popular {
-        @apply space-y-8 w-full md:w-fit;
+        @apply space-y-8 w-full md:w-fit px-4 md:px-8;
       }
 
       .loved {
-        @apply space-y-8 w-full md:w-fit pb-20 md:pb-0;
+        @apply space-y-8 w-full md:w-fit pb-20 md:pb-0 px-4 md:px-8;
       }
 
       h2 {
